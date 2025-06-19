@@ -1,165 +1,329 @@
-/* Harrowgate Stickball League */
-/* Designed by Michael R. Respass */
-/* To contact, please email at */
-/* michael@michaelrrespass.com */
-
-/* blue = #0c459c */
-/* red = #d40225 */
-/* black = #000000 */
-/* white = #ffffff */
-
-/* Begin Background CSS */
-
-* {margin: 0; padding: 0;}
-
-html {min-height: 100%; position: relative;}
-
-body {background: #0c459c url('/hsl/images/background2.png'); color: #000000; font: 12px Georgia, Times, "Times New Roman", serif; margin 0 auto 20px; text-align: center;}
-
-/* End Background CSS */
-
-
-/* Begin Style CSS */
-
-h1 {font-size: 30px; font-weight: bold; line-height: 50px; text-transform: uppercase;}
-h2 {color: #0c459c; font-size: 20px; font-weight: bold; line-height: 40px; text-transform: uppercase;}
-h2 + p {margin: 6px auto 0;}
-h3 {font-size: 16px; font-weight: bold; line-height: 32px; text-transform: uppercase;}
-
-a:link, a:visited {color: #d40225; font-weight: bold; text-decoration: none;}
-a:active, a:hover {color: #0c459c;}
-
-hr {background: #000000; border: 0; clear: both; display: block; height: 1px; margin: 10px auto; width: 500px;}
-hr + h2 {margin: 12px auto 0;}
-
-p {display: block; line-height: 20px;}
-p + p {margin: 24px auto;}
-p+ hr {margin: 12px auto 0;}
-
-span {display: block;}
-
-table {border: 2px #000000 solid; margin: 10px auto 20px;}
-th {background: #000000; border: 1px #000000 solid; color: #ffffff; padding: 0 10px;}
-td {border: 1px #000000 solid; padding: 0 10px;}
-
-u {color: #0c459c; text-decoration: none;}
-
-.border {border: 1px #000000 solid; margin: 20px auto 0;}
-
-/* End Style CSS */
-
-
-/* Begin Navigation CSS */
-
-#nav {color: #ffffff; height: 120px; line-height: 120px; margin: 0 auto; padding: 0; width: 960px;}
-
-#nav ul {font-size: 16px; list-style: none; margin: 0 auto; padding: 0; position: relative; text-align: center; width: 960px;}
-#nav img {border: none; float: left; margin: 10px 80px 0 0; width: 100px;}
-#nav ul li {display: block; float: left; height: 100px; left: 0; margin: auto; text-align: center; width: 130px;}
-#nav ul li a {display: block; padding: 0; text-decoration: none; width: 130px;}
-#nav ul li a:hover {width: 130px;}
-#nav li:hover a {display: block; width: 130px;}
-
-#nav ul li a:link, #nav ul li a:visited {color: #ffffff; font-weight: bold; text-decoration: none;}
-#nav ul li a:active, #nav ul li a:hover {background: #ffffff; color: #d40225;}
-
-/* End Navigation CSS */
-
-
-/* Begin Content CSS */
-
-#content {background: #ffffff; line-height: 30px; margin: 0 auto 20px; padding: 10px; position: relative; text-align: center; width: 940px;}
-#content:before, #content:after {content: " "; display: table;}
-#content:after {clear: both;}
-
-#content ul {display:block; font-size: 12px; list-style: none; margin: 0 auto 10px; padding: 0; position: relative; text-align: center; width: 940px;}
-#content ul li {display: block; float: left; left: 0; line-height: 36px; margin: auto; text-align: center; width: 235px;}
-#content ul li a {display: block; padding: 0; text-decoration: none; width: 235px;}
-#content ul li a:hover {width: 235px;}
-#content li ul {display: none;}
-#content li:hover a {display: block; width: 235px;}
-#content li:hover ul {background: #d40225; border: 1px #ffffff solid; border-width: 0 1px 1px; display: block; height: 30px; line-height: 30px; margin: 0 auto; position: absolute; text-align: center; width: 235px;}
-#content li:hover li {display: block; font-size: 12px; width: 235px;}
-#content li:hover li a:hover {display: block; width: 235px;}
-#content li:hover li + li {font-size: 12px; width: 235px;}
-#content li ul li {line-height: 30px; width: 235px;}
-
-/* End Content CSS */
-
-
-/* Begin Footer CSS */
-
-#footer {bottom: 0; height: 20px; margin: 0 auto; position: absolute; text-align: center; width: 100%;}
-
-/* End Footer CSS */
-
-
-/* Begin Card CSS */
-
-.card {float: left; height: 412px; margin: 24px 79px; width: 312px;}
-.card table {display: none;}
-.card p {display: none;}
-.card b {display: none;}
-.card u {display: none;}
-.card img {border: 1px solid black;}
-
-.card:hover {border: 1px solid black; height: 410px; margin: 24px 79px; width: 310px;}
-.card:hover img {display: none;}
-.card:hover table {border: none; display: inline-block; line-height: 12px; margin: 0 auto; position: relative; text-align: center; width: 200px;}
-.card:hover th {border: none; width: 25%;}
-.card:hover td {border: none; line-height: 18px;}
-.card:hover b {display: block; font-size: 20px; margin: 60px 0 0; padding: 0 0 4px; text-align: center; text-transform: uppercase;}
-.card:hover u {display: block; font-size: 16px; line-height: 20px;}
-
-.bomb-squad:hover {background: #ffffff url('/hsl/images/bomb-squad-card-back.png');}
-.goodnight-irenes:hover {background: #ffffff url('/hsl/images/goodnight-irenes-card-back.png');}
-.indian-burners:hover {background: #ffffff url('/hsl/images/indian-burners-card-back.png');}
-.shark-attack:hover {background: #ffffff url('/hsl/images/shark-attack-card-back.png');}
-
-/* End Card CSS */
-
-
-/* Begin Standings CSS */
-
-.head2head {width: 25%;}
-
-/* End Standings CSS */
-
-
-/* Begin Box Scores CSS */
-
-.boxscore {float: left; width: 50%;}
-.team {width: 80%;}
-.score {width: 70%;}
-.scoreboard {width: 50%;}
-.scoreboard b + b {margin: 0 0 0 30px;}
-
-/* End Box Scores CSS */
-
-
-/* Begin Stats CSS */
-
-.leader {float: left; width: 25%;}
-.leader table {width: 80%;}
-.leader td {font-size: 12px; line-height: 18px;}
-.leader td a {line-height: 30px;}
-
-.leader2 {float: left; width: 33.3%;}
-.leader2 table {width: 60%;}
-.leader2 td {font-size: 12px; line-height: 18px;}
-.leader2 td a {line-height: 30px;}
-
-.leaderboard {width: 80%;}
-.leaderboard th {background: #000000; color: #ffffff;}
-.leaderboard th a:link {color: #ff0000;}
-.leaderboard th a:visited {color: #ff0000;}
-.leaderboard th a:active {color: #ffffff;}
-.leaderboard th a:hover {color: #ffffff;}
-.leaderboard td {font-size: 12px; line-height: 20px;}
-.leaderboard .sort {background: #0c459c; color: #ffffff;}
-
-.key {width: 80%;}
-.key tr {font-size: 12px; height: 36px; line-height: 18px;}
-.key td + td {text-align: left;}
-
+/* Harrowgate Stickball League */
+
+/* Designed by Michael R. Respass */
+
+/* To contact, please email at */
+
+/* michael.r.respass@gmail.com */
+
+
+
+/* blue = #0c459c */
+
+/* red = #d40225 */
+
+/* black = #000000 */
+
+/* white = #ffffff */
+
+
+
+/* Begin Background CSS */
+
+
+
+* {margin: 0; padding: 0;}
+
+
+
+html {min-height: 100%; position: relative;}
+
+
+
+body {background: #0c459c url('/images/background2.png'); color: #000000; font: 12px Georgia, Times, "Times New Roman", serif; margin 0 auto 20px; text-align: center;}
+
+
+
+/* End Background CSS */
+
+
+
+
+
+/* Begin Style CSS */
+
+
+
+h1 {font-size: 30px; font-weight: bold; line-height: 50px; text-transform: uppercase;}
+
+h2 {color: #0c459c; font-size: 20px; font-weight: bold; line-height: 40px; text-transform: uppercase;}
+
+h2 + p {margin: 6px auto 0;}
+
+h3 {font-size: 16px; font-weight: bold; line-height: 32px; text-transform: uppercase;}
+
+
+
+a:link, a:visited {color: #d40225; font-weight: bold; text-decoration: none;}
+
+a:active, a:hover {color: #0c459c;}
+
+
+
+hr {background: #000000; border: 0; clear: both; display: block; height: 1px; margin: 10px auto; width: 500px;}
+
+hr + h2 {margin: 12px auto 0;}
+
+
+
+p {display: block; line-height: 20px;}
+
+p + p {margin: 24px auto;}
+
+p+ hr {margin: 12px auto 0;}
+
+
+
+span {display: block;}
+
+
+
+table {border: 2px #000000 solid; margin: 10px auto 20px;}
+
+th {background: #000000; border: 1px #000000 solid; color: #ffffff; padding: 0 10px;}
+
+td {border: 1px #000000 solid; padding: 0 10px;}
+
+
+
+u {color: #0c459c; text-decoration: none;}
+
+
+
+.border {border: 1px #000000 solid; margin: 20px auto 0;}
+
+
+
+/* End Style CSS */
+
+
+
+
+
+/* Begin Navigation CSS */
+
+
+
+#nav {color: #ffffff; height: 120px; line-height: 120px; margin: 0 auto; padding: 0; width: 960px;}
+
+
+
+#nav ul {font-size: 16px; list-style: none; margin: 0 auto; padding: 0; position: relative; text-align: center; width: 960px;}
+
+#nav img {border: none; float: left; margin: 10px 80px 0 0; width: 100px;}
+
+#nav ul li {display: block; float: left; height: 100px; left: 0; margin: auto; text-align: center; width: 130px;}
+
+#nav ul li a {display: block; padding: 0; text-decoration: none; width: 130px;}
+
+#nav ul li a:hover {width: 130px;}
+
+#nav li:hover a {display: block; width: 130px;}
+
+
+
+#nav ul li a:link, #nav ul li a:visited {color: #ffffff; font-weight: bold; text-decoration: none;}
+
+#nav ul li a:active, #nav ul li a:hover {background: #ffffff; color: #d40225;}
+
+
+
+/* End Navigation CSS */
+
+
+
+
+
+/* Begin Content CSS */
+
+
+
+#content {background: #ffffff; line-height: 30px; margin: 0 auto 20px; padding: 10px; position: relative; text-align: center; width: 940px;}
+
+#content:before, #content:after {content: " "; display: table;}
+
+#content:after {clear: both;}
+
+
+
+#content ul {display:block; font-size: 12px; list-style: none; margin: 0 auto 10px; padding: 0; position: relative; text-align: center; width: 940px;}
+
+#content ul li {display: block; float: left; left: 0; line-height: 36px; margin: auto; text-align: center; width: 235px;}
+
+#content ul li a {display: block; padding: 0; text-decoration: none; width: 235px;}
+
+#content ul li a:hover {width: 235px;}
+
+#content li ul {display: none;}
+
+#content li:hover a {display: block; width: 235px;}
+
+#content li:hover ul {background: #d40225; border: 1px #ffffff solid; border-width: 0 1px 1px; display: block; height: 30px; line-height: 30px; margin: 0 auto; position: absolute; text-align: center; width: 235px;}
+
+#content li:hover li {display: block; font-size: 12px; width: 235px;}
+
+#content li:hover li a:hover {display: block; width: 235px;}
+
+#content li:hover li + li {font-size: 12px; width: 235px;}
+
+#content li ul li {line-height: 30px; width: 235px;}
+
+
+
+/* End Content CSS */
+
+
+
+
+
+/* Begin Footer CSS */
+
+
+
+#footer {bottom: 0; height: 20px; margin: 0 auto; position: absolute; text-align: center; width: 100%;}
+
+
+
+/* End Footer CSS */
+
+
+
+
+
+/* Begin Card CSS */
+
+
+
+.card {float: left; height: 412px; margin: 24px 79px; width: 312px;}
+
+.card table {display: none;}
+
+.card p {display: none;}
+
+.card b {display: none;}
+
+.card u {display: none;}
+
+.card img {border: 1px solid black;}
+
+
+
+.card:hover {border: 1px solid black; height: 410px; margin: 24px 79px; width: 310px;}
+
+.card:hover img {display: none;}
+
+.card:hover table {border: none; display: inline-block; line-height: 12px; margin: 0 auto; position: relative; text-align: center; width: 200px;}
+
+.card:hover th {border: none; width: 25%;}
+
+.card:hover td {border: none; line-height: 18px;}
+
+.card:hover b {display: block; font-size: 20px; margin: 60px 0 0; padding: 0 0 4px; text-align: center; text-transform: uppercase;}
+
+.card:hover u {display: block; font-size: 16px; line-height: 20px;}
+
+
+
+.bomb-squad:hover {background: #ffffff url('/images/bomb-squad-card-back.png');}
+
+.goodnight-irenes:hover {background: #ffffff url('/images/goodnight-irenes-card-back.png');}
+
+.indian-burners:hover {background: #ffffff url('/images/indian-burners-card-back.png');}
+
+.shark-attack:hover {background: #ffffff url('/images/shark-attack-card-back.png');}
+
+
+
+/* End Card CSS */
+
+
+
+
+
+/* Begin Standings CSS */
+
+
+
+.head2head {width: 25%;}
+
+
+
+/* End Standings CSS */
+
+
+
+
+
+/* Begin Box Scores CSS */
+
+
+
+.boxscore {float: left; width: 50%;}
+
+.team {width: 80%;}
+
+.score {width: 70%;}
+
+.scoreboard {width: 50%;}
+
+.scoreboard b + b {margin: 0 0 0 30px;}
+
+
+
+/* End Box Scores CSS */
+
+
+
+
+
+/* Begin Stats CSS */
+
+
+
+.leader {float: left; width: 25%;}
+
+.leader table {width: 80%;}
+
+.leader td {font-size: 12px; line-height: 18px;}
+
+.leader td a {line-height: 30px;}
+
+
+
+.leader2 {float: left; width: 33.3%;}
+
+.leader2 table {width: 60%;}
+
+.leader2 td {font-size: 12px; line-height: 18px;}
+
+.leader2 td a {line-height: 30px;}
+
+
+
+.leaderboard {width: 80%;}
+
+.leaderboard th {background: #000000; color: #ffffff;}
+
+.leaderboard th a:link {color: #ff0000;}
+
+.leaderboard th a:visited {color: #ff0000;}
+
+.leaderboard th a:active {color: #ffffff;}
+
+.leaderboard th a:hover {color: #ffffff;}
+
+.leaderboard td {font-size: 12px; line-height: 20px;}
+
+.leaderboard .sort {background: #0c459c; color: #ffffff;}
+
+
+
+.key {width: 80%;}
+
+.key tr {font-size: 12px; height: 36px; line-height: 18px;}
+
+.key td + td {text-align: left;}
+
+
+
 /* End Stats CSS */
