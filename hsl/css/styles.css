@@ -30,7 +30,7 @@ html {min-height: 100%; position: relative;}
 
 
 
-body {background: #0c459c url('/images/background2.png'); color: #000000; font: 12px Georgia, Times, "Times New Roman", serif; margin 0 auto 20px; text-align: center;}
+body {background: #0c459c url('images/background2.png'); color: #000000; font: 12px Georgia, Times, "Times New Roman", serif; margin 0 auto 20px; text-align: center;}
 
 
 
@@ -224,13 +224,13 @@ u {color: #0c459c; text-decoration: none;}
 
 
 
-.bomb-squad:hover {background: #ffffff url('/images/bomb-squad-card-back.png');}
+.bomb-squad:hover {background: #ffffff url('images/bomb-squad-card-back.png');}
 
-.goodnight-irenes:hover {background: #ffffff url('/images/goodnight-irenes-card-back.png');}
+.goodnight-irenes:hover {background: #ffffff url('images/goodnight-irenes-card-back.png');}
 
-.indian-burners:hover {background: #ffffff url('/images/indian-burners-card-back.png');}
+.indian-burners:hover {background: #ffffff url('images/indian-burners-card-back.png');}
 
-.shark-attack:hover {background: #ffffff url('/images/shark-attack-card-back.png');}
+.shark-attack:hover {background: #ffffff url('images/shark-attack-card-back.png');}
 
 
 
