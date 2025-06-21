@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+   <base href="http://michaelrrespass.com" />
+   <link rel="SHORTCUT ICON" href="/hsl/images/logo.ico" type="image/x-icon" />
+   <title> HSL - Bomb Squad at Goodnight Irenes - Wildcard #2 Box Score </title>
+   <meta name="description" content="A 2003 Stickball League out of the Harrowgate section of Philadelphia, Pennsylvania." />
+   <meta name="keywords" content="Harrowgate Stickball League, 2003 Stickball League, Harrowgate Stickball, Stickball League, Stickball" />
+   <meta name="author" content="Michael R. Respass" />
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="/hsl/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<?php include '../../php/header.php'; ?>
+
+<div id="content">
+   <h1>Bomb Squad at Goodnight Irenes</h1>
+   <hr />
+   <hr2>Wildcard Game #2</h2>
+   <table class="scoreboard">
+      <tr>
+         <th>Final</th>
+         <th>1</th>
+         <th>2</th>
+         <th>3</th>
+         <th>4</th>
+         <th>5</th>
+         <th>6</th>
+         <th></th>
+         <th>R</th>
+         <th>H</th>
+         <th>E</th>
+      </tr>
+      <tr>
+         <td>Bomb Squad</td>
+         <td>4</td>
+         <td>3</td>
+         <td>5</td>
+         <td>0</td>
+         <td>1</td>
+         <td>0</td>
+         <td></td>
+         <td>13</td>
+         <td>22</td>
+         <td>2</td>
+      </tr>
+      <tr>
+         <td>Goodnight Irenes</td>
+         <td>7</td>
+         <td>1</td>
+         <td>3</td>
+         <td>8</td>
+         <td>3</td>
+         <td>-</td>
+         <td></td>
+         <td>22</td>
+         <td>27</td>
+         <td>4</td>
+      </tr>
+      <tr>
+         <td colspan=11><b>W:</b> Hink (1-0, 12.00) <b>L:</b> Roy (0-1, 26.40) <b>SV:</b> None</td>
+      </tr>
+   </table>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Bomb Squad</th>
+            <th>AB</th>
+            <th>R</th>
+            <th>H</th>
+            <th>RBI</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Coyle</td>
+            <td>11</td>
+            <td>2</td>
+            <td>5</td>
+            <td>1</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Roy</td>
+            <td>11</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>Jer</td>
+            <td>11</td>
+            <td>3</td>
+            <td>4</td>
+            <td>2</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td>Jon</td>
+            <td>11</td>
+            <td>6</td>
+            <td>10</td>
+            <td>7</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>44</b></td>
+            <td><b>13</b></td>
+            <td><b>22</b></td>
+            <td><b>12</b></td>
+            <td><b>11</b></td>
+         </tr>
+         <tr>
+            <td colspan=6>
+               <span><u>Batting</u></span>
+               <span><b>2B:</b> Coyle (3), Jer (2), Jon (1)</span>
+               <span><b>3B:</b> None</span>
+               <span><b>HR:</b> Roy (1), Jon 3 (5)</span>
+               <span><b>RBI:</b> Coyle (3), Roy 2 (5), Jer 2 (6), Jon 7 (12)</span>
+               <span><u>Fielding</u></span>
+               <span><b>E:</b> Roy 2 (4)</span>
+            </td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Goodnight Irenes</th>
+            <th>AB</th>
+            <th>R</th>
+            <th>H</th>
+            <th>RBI</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Dave</td>
+            <td>11</td>
+            <td>7</td>
+            <td>8</td>
+            <td>6</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td>Ficco</td>
+            <td>11</td>
+            <td>3</td>
+            <td>6</td>
+            <td>4</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Hink</td>
+            <td>11</td>
+            <td>9</td>
+            <td>9</td>
+            <td>6</td>
+            <td>0</td>
+         </tr>
+         <tr>
+            <td>Walton</td>
+            <td>11</td>
+            <td>3</td>
+            <td>4</td>
+            <td>6</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>44</b></td>
+            <td><b>22</b></td>
+            <td><b>27</b></td>
+            <td><b>22</b></td>
+            <td><b>6</b></td>
+         </tr>
+         <tr>
+            <td colspan=6>
+               <span><u>Batting</u></span>
+               <span><b>2B:</b> Dave 3 (3), Hink (1), Walton 2 (2)</span>
+               <span><b>3B:</b> None</span>
+               <span><b>HR:</b> Dave 2 (2), Ficco (1), Hink 4 (4)</span>
+               <span><b>RBI:</b> Dave 6 (6), Ficco 4 (4), Hink 6 (6), Walton 6 (6)</span>
+               <span><u>Fielding</u></span>
+               <span><b>E:</b> Ficco (1), Walton 3 (3)</span>
+            </td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Bomb Squad</th>
+            <th>IP</th>
+            <th>H</th>
+            <th>R</th>
+            <th>ER</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Roy</td>
+            <td>5</td>
+            <td>27</td>
+            <td>22</td>
+            <td>22</td>
+            <td>6</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>5</b></td>
+            <td><b>27</b></td>
+            <td><b>22</b></td>
+            <td><b>22</b></td>
+            <td><b>6</b></td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Goodnight Irenes</th>
+            <th>IP</th>
+            <th>H</th>
+            <th>R</th>
+            <th>ER</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Hink</td>
+            <td>6</td>
+            <td>22</td>
+            <td>13</td>
+            <td>12</td>
+            <td>11</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>6</b></td>
+            <td><b>22</b></td>
+            <td><b>13</b></td>
+            <td><b>12</b></td>
+            <td><b>11</b></td>
+         </tr>
+      </table>
+   </div>
+</div>
+
+</body>
+</html>

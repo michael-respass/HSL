@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+   <base href="http://michaelrrespass.com" />
+   <link rel="SHORTCUT ICON" href="/hsl/images/logo.ico" type="image/x-icon" />
+   <title> HSL - Indian Burners at Bomb Squad - Game #3 Box Score </title>
+   <meta name="description" content="A 2003 Stickball League out of the Harrowgate section of Philadelphia, Pennsylvania." />
+   <meta name="keywords" content="Harrowgate Stickball League, 2003 Stickball League, Harrowgate Stickball, Stickball League, Stickball" />
+   <meta name="author" content="Michael R. Respass" />
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="/hsl/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<?php include '../../php/header.php'; ?>
+
+<div id="content">
+   <h1>Indian Burners at Bomb Squad</h1>
+   <hr />
+   <h2>Game #3 of 3</h2>
+   <table class="scoreboard">
+      <tr>
+         <th>Final</th>
+         <th>1</th>
+         <th>2</th>
+         <th>3</th>
+         <th>4</th>
+         <th>5</th>
+         <th>6</th>
+         <th></th>
+         <th>R</th>
+         <th>H</th>
+         <th>E</th>
+      </tr>
+      <tr>
+         <td>Indian Burners</td>
+         <td>4</td>
+         <td>0</td>
+         <td>8</td>
+         <td>2</td>
+         <td>1</td>
+         <td>7</td>
+         <td></td>
+         <td>22</td>
+         <td>26</td>
+         <td>2</td>
+      </tr>
+      <tr>
+         <td>Bomb Squad</td>
+         <td>0</td>
+         <td>3</td>
+         <td>0</td>
+         <td>1</td>
+         <td>4</td>
+         <td>0</td>
+         <td></td>
+         <td>9</td>
+         <td>13</td>
+         <td>6</td>
+      </tr>
+      <tr>
+         <td colspan=11><b>W:</b> Danny (2-3, 13.68) <b>L:</b> Roy (2-2, 12.27) <b>SV:</b> None</td>
+      </tr>
+   </table>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Indian Burners</th>
+            <th>AB</th>
+            <th>R</th>
+            <th>H</th>
+            <th>RBI</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Kev</td>
+            <td>13</td>
+            <td>5</td>
+            <td>6</td>
+            <td>3</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Danny</td>
+            <td>13</td>
+            <td>7</td>
+            <td>9</td>
+            <td>5</td>
+            <td>1</td>
+         </tr>
+         <tr>
+            <td>Peach</td>
+            <td>12</td>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Mike</td>
+            <td>12</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>50</b></td>
+            <td><b>22</b></td>
+            <td><b>26</b></td>
+            <td><b>21</b></td>
+            <td><b>8</b></td>
+         </tr>
+         <tr>
+            <td colspan=6>
+               <span><u>Batting</u></span>
+               <span><b>2B:</b> Kev 2 (5), Danny (11), Peach 2 (8), Mike (4)</span>
+               <span><b>3B:</b> Kev (2)</span>
+               <span><b>HR:</b> Danny 2 (17), Peach 3 (7), Mike 4 (11)</span>
+               <span><b>RBI:</b> Kev 3 (16), Danny 5 (40), Peach 6 (16), Mike 7 (20)</span>
+               <span><u>Fielding</u></span>
+               <span><b>E:</b> Kev (7), Peach (4)</span>
+             </td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Bomb Squad</th>
+            <th>AB</th>
+            <th>R</th>
+            <th>H</th>
+            <th>RBI</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Coyle</td>
+            <td>9</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Roy</td>
+            <td>8</td>
+            <td>3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Jer</td>
+            <td>8</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td>Jon</td>
+            <td>8</td>
+            <td>2</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>33</b></td>
+            <td><b>9</b></td>
+            <td><b>13</b></td>
+            <td><b>9</b></td>
+            <td><b>8</b></td>
+         </tr>
+         <tr>
+            <td colspan=6>
+               <span><u>Batting</u></span>
+               <span><b>2B:</b> Roy (2), Jer 2 (14), Jon (5)</span>
+               <span><b>3B:</b> None</span>
+               <span><b>HR:</b> Coyle (4), Jon (21)</span>
+               <span><b>RBI:</b> Coyle 2 (21), Roy 3 (19), Jer 2 (14), Jon 2 (50)</span>
+               <span><u>Fielding</u></span>
+               <span><b>E:</b> Roy (8), Jer 2 (12), Jon 3 (5)</span>
+             </td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Indian Burners</th>
+            <th>IP</th>
+            <th>H</th>
+            <th>R</th>
+            <th>ER</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Danny</td>
+            <td>6</td>
+            <td>13</td>
+            <td>9</td>
+            <td>9</td>
+            <td>8</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>6</b></td>
+            <td><b>13</b></td>
+            <td><b>9</b></td>
+            <td><b>9</b></td>
+            <td><b>8</b></td>
+         </tr>
+      </table>
+   </div>
+   <div class="boxscore">
+      <table class="team">
+         <tr>
+            <th>Bomb Squad</th>
+            <th>IP</th>
+            <th>H</th>
+            <th>R</th>
+            <th>ER</th>
+            <th>K</th>
+         </tr>
+         <tr>
+            <td>Roy</td>
+            <td>6</td>
+            <td>26</td>
+            <td>22</td>
+            <td>21</td>
+            <td>8</td>
+         </tr>
+         <tr>
+            <td><b>Totals</b></td>
+            <td><b>6</b></td>
+            <td><b>26</b></td>
+            <td><b>22</b></td>
+            <td><b>21</b></td>
+            <td><b>8</b></td>
+         </tr>
+      </table>
+   </div>
+</div>
+
+</body>
+</html>
